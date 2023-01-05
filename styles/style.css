@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    text-align: center;
+    background-image: linear-gradient(to top, rgb(28, 22, 22), rgba(6, 3, 22, 0)), url(../images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 235px 0;
+}
+header h1, h2{
+    color: whitesmoke;
+    font-size: 70px;
+}
+header p{
+    color: whitesmoke;
+    font-size: 22px;
+    padding: 35px 0;
+}
+.btn-primary{
+    padding: 16px 36px;
+    border: 0;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 5px;
+    background-color: #EC4D4D;
+    color: whitesmoke;
+}
+.container{
+    text-align: center;
+    padding: 120px 60px 60px 60px;
+}
+.common-header {
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+}
+.common-paragraph {
+    font-size: 20px;
+    color:darkgray;
+    padding-top: 25px ;
+}
+.donate-ammount{
+    display: flex;
+    justify-content: space-evenly;
+}
+.donate-ammount ul{
+    display: flex;
+    align-items: center;
+}
+.donate-ammount li{
+    list-style: none;
+    padding: 50px 45px;
+    border: 3.5px solid #EC4D4D;
+    border-radius: 5px;
+    margin: 0 30px;
+    font-size: 25px;
+    font-weight: 600;
+    color: darkgrey;
+}
+.donate-ammount li.selected{
+    background-color: #ffeded;
+    color: #EC4D4D;
+}
