@@ -52,14 +52,112 @@ header p{
 .donate-ammount li{
     list-style: none;
     padding: 50px 45px;
-    border: 3.5px solid #EC4D4D;
+    border: 3.5px solid rgb(247, 247, 247);
     border-radius: 5px;
     margin: 0 30px;
     font-size: 25px;
     font-weight: 600;
     color: darkgrey;
+    background-color: rgb(247, 247, 247);
 }
-.donate-ammount li.selected{
+.donate-ammount li:hover{
     background-color: #ffeded;
+    border: 3.5px solid #EC4D4D;
     color: #EC4D4D;
+}
+.submition-from {
+    text-align: center;
+}
+.submition-from input[type]{
+    font-size: 20px;
+    border: none;
+    border-bottom: 2px solid darkgrey;
+    width: 60%;
+    text-align: center;
+    margin: 50px;
+    /* padding: 40px; */
+}
+.submition-from input::placeholder{
+    color: rgb(214, 212, 212);
+}
+.plan-details{
+    display: flex;
+    gap: 24px;
+}
+.plane-one{
+    background: rgb(214, 252, 242);
+    border-radius: 5px;
+    padding: 30px;
+    margin: 0 30px;
+    width: 30%;
+}
+.plane-two{
+    background: rgb(255, 220, 215);
+    border-radius: 5px;
+    padding: 30px;
+    margin: 0 30px;
+    width: 30%;
+}
+.plane-three{
+    background: rgb(250, 247, 215);
+    border-radius: 5px;
+    padding: 30px;
+    margin: 0 30px;
+    width: 30%;
+}
+.plan-title{
+    padding: 20px 0;
+}
+.plan-description{
+    color: darkgrey;
+}
+.details{
+    display: flex;
+    padding: 50px 40px;
+}
+.details-description{
+    padding: 0 100px;
+}
+.details img{
+    border: 0;
+    border-radius: 1%;
+    height: 500px;
+    width: 600px;
+}
+.details-description button{
+    margin-top: 30px;
+}
+.contact{
+    text-align: center;
+}
+.subscribe{
+    margin: 100px;
+    padding: 100px 0px;
+    background-color: beige;
+}
+.subscribe input{
+    font-size: 40px;
+    padding: 3px 0 13px 0;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    background-color: rgb(226, 226, 226);
+}
+.subscribe input::placeholder{
+    font-size: 25px;
+    padding-left: 15px;
+}
+.subscribe button{
+    margin-left: -6px;
+    border-radius: 0;
+    border-radius: 0 5px 5px 0;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    padding-bottom: 103px;
+    padding-top: 80px;
+}
+footer .common-header{
+    color: #EC4D4D;
+    font-family: ;
 }
